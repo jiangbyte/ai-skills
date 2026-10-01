@@ -12,10 +12,8 @@
 
 ```
 .cursor/
-  rules/          # 从 jiangbyte/cursor/rules 迁入
-  skills/
-    ddd/          # DDD skill
-    academic-blog-writing/
+  rules/     # 从 jiangbyte/cursor/rules 迁入
+  skills/    # 待整理
 ```
 
 同步到某项目：
@@ -31,4 +29,4 @@ ln -s "$(pwd)/.cursor" /path/to/project/.cursor
 ## 来源
 
 - Rules：`jiangbyte/cursor/rules`
-- Skills：从个人项目 `.cursor/skills` 汇总（`jiangbyte/cursor` 原先只有 rules）
+- Skills：尚未整理
