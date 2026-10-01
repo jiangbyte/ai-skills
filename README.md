@@ -11,7 +11,6 @@
 ## 目录
 
 - [工程结构](#工程结构)
-- [Cursor Rules](#cursor-rules)
 - [使用](#使用)
 
 ## 工程结构
@@ -20,7 +19,7 @@
 ai-skills/
 ├── .cursor/           # Cursor
 │   ├── rules/         # *.mdc
-│   └── skills/        # 待整理（*/SKILL.md）
+│   └── skills/        # */SKILL.md
 ├── .claude/           # Claude Code（预留）
 └── .codex/            # Codex（预留）
 ```
@@ -28,24 +27,9 @@ ai-skills/
 | 目录 | 工具 | 说明 |
 | --- | --- | --- |
 | `.cursor/rules` | Cursor | 项目级 Rules（`.mdc`） |
-| `.cursor/skills` | Cursor | Agent Skills（待整理） |
+| `.cursor/skills` | Cursor | Agent Skills |
 | `.claude/` | Claude Code | skills / rules 预留 |
 | `.codex/` | Codex | skills 预留 |
-
-## Cursor Rules
-
-| 文件 | 用途 |
-| --- | --- |
-| `api-interface.mdc` | API / 接口约定 |
-| `chinese-comments.mdc` | 中文注释 |
-| `code-change-discipline.mdc` | 改动纪律 |
-| `database-operations.mdc` | 数据库操作 |
-| `defensive-coding.mdc` | 防御性编码 |
-| `error-logging.mdc` | 错误与日志 |
-| `frontend-typescript.mdc` | 前端 TypeScript |
-| `write-safety.mdc` | 写入安全 |
-
-Rules 初始来自 [`jiangbyte/cursor/rules`](https://github.com/jiangbyte/jiangbyte/tree/main/cursor/rules)。
 
 ## 使用
 
